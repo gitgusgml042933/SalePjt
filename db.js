@@ -8,7 +8,7 @@ customer_db.set('gildong', dummyC1);
 let dummyC2 = new Customer('chanho', '박찬호', 'chanho@naver.com', '010-9012-3456', Date());
 customer_db.set('chanho', dummyC2);
 
-let dummyC3 = new Customer('saeri', '박세리', 'saeri@daum.net', ' 010-7890-1234', Date());
+let dummyC3 = new Customer('saeri', '박세리', 'saeri@daum.net', '010-7890-1234', Date());
 customer_db.set('saeri', dummyC3);
 
 let dummyC4 = new Customer('byeonggyu', '이병규', 'byeonggyu@gmail.com', '010-5678-9012', Date());
@@ -63,3 +63,14 @@ manufacture_db.set('5',dummyM5);
 console.log(manufacture_db);
 
 // TBL_MANUFACTURE_DB END
+
+// TBL_ALL_LIST_DB START
+let sale_list_db = new Map();
+
+let dummy_list1 = new All_List('1','1','1','1','1','1','1','1','1','1','1','1','1','1','1','1','1','1','1');
+let dummy_list2 = new All_List('2','2','2','2','2','2','2','2','2','2','2','2','2','2','2','2','2','2','2');
+let dummy_list3 = new All_List('3','3','3','3','3','3','3','3','3','3','3','3','3','3','3','3','3','3','3');
+sale_list_db.set(0,dummy_list1);
+sale_list_db.set(1,dummy_list2);
+sale_list_db.set(2,dummy_list3);
+// TBL_ALL_LIST_DB END

@@ -1,15 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOMContentLoaded CALLED!!');
 
-    init();
-});
-
-const init = () => {
-    console.log('init() CALLED!!');
-
-    viewProduct();
-
-};
 
 const viewProduct = () => {
     console.log('viewProduct() CALLED!!');
