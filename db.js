@@ -63,3 +63,14 @@ manufacture_db.set('5',dummyM5);
 console.log(manufacture_db);
 
 // TBL_MANUFACTURE_DB END
+
+// TBL_ALL_LIST_DB START
+let sale_list_db = new Map();
+
+let dummy_list1 = new All_List('1','1','1','1','1','1','1','1','1','1','1','1','1','1','1','1','1','1','1');
+let dummy_list2 = new All_List('2','2','2','2','2','2','2','2','2','2','2','2','2','2','2','2','2','2','2');
+let dummy_list3 = new All_List('3','3','3','3','3','3','3','3','3','3','3','3','3','3','3','3','3','3','3');
+sale_list_db.set(0,dummy_list1);
+sale_list_db.set(1,dummy_list2);
+sale_list_db.set(2,dummy_list3);
+// TBL_ALL_LIST_DB END
