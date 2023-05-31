@@ -55,7 +55,6 @@ const show_template = () => {
         t_s_no.textContent = list_value.s_no;
         t_s_price.textContent = list_value.s_price;
         t_s_reg_date.textContent = list_value.s_reg_date;
->>>>>>> 03736283d6334c179279820928303d9b98c42afe
 
         tableWrap.prepend(clone);
     }
