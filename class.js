@@ -1,10 +1,10 @@
 class Customer {
-    constructor(c_id, c_name, c_mail, c_phone, c_reg_date) {
+    constructor(c_id, c_name, c_mail, c_phone, c_rega_date) {
         this.c_id = c_id;
         this.c_name = c_name;
         this.c_mail = c_mail;
         this.c_phone = c_phone;
-        this.c_reg_date = c_reg_date;
+        this.c_rega_date = c_rega_date;
     }
 };
 

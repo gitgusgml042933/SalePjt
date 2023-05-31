@@ -1,16 +1,3 @@
-document.addEventListener('DOMContentLoaded', function(){
-    console.log('DOCUMENT READY!!');
-
-    init();
-});
-
-
-const init = () => {
-    console.log('init() READY!!');
-
-    registrationEvents();
-}
-
 const registrationEvents = () => {
     let regist_btn  = document.querySelector('div.submit_button input[value="상품 판매 등록"]');
     regist_btn.addEventListener('click', function() {

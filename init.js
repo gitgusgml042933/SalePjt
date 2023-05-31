@@ -9,7 +9,7 @@ const init = () => {
 
     show_template();
     registrationEvents();
-    viewProduct();
+    //viewProduct();
 
     
 }
