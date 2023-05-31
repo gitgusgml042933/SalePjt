@@ -1,0 +1,32 @@
+/* wrap */
+#wrap {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+#wrap .program_title{
+    border-bottom: thick double #dadada;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+
+/* wrap table */
+#wrap .sell_list .sell_table .head_table{
+    background-color: #dadada;
+}
+#wrap .program_regist{
+    text-align: center;
+    width: 800px;
+    border: 1px solid #dadada;
+}
+
+#wrap .program_regist ul div ul li{
+} 
+#wrap .program_regist ul div li.font_style{
+    font-size: 1.2em;
+    font-weight: bold;
+}

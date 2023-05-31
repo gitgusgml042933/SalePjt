@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="./common.css" rel="stylesheet" type="text/css">
+    <link href="./index.css" rel="stylesheet" type="text/css">
+
+    <title>Sale_Program</title>
+</head>
+<body>
+    
+    <div id="wrap">
+
+        <div class="program_title">
+            Sale Program
+        </div>
+
+        <div class="program_regist">
+            <ul>
+                <div class="customer_id">
+                    <ul>
+                        <li class="c_id_title font_style">
+                            고객 아이디
+                        </li>
+                        <li class="c_id_input">
+                            <input type="text" placeholder="INPUT CUSTOMER ID">
+                        </li>
+                    </ul>
+                </div>
+                <div class="product_no">
+                    <ul>
+                        <li class="product_no_title font_style">
+                            상품 번호
+                        </li>
+                        <li class="product_no_input">
+                            <input type="text" placeholder="INPUT PRODUCT NO">
+                        </li>
+                    </ul>
+                </div>
+                <div class="price_id">
+                    <ul>
+                        <li class="price_id_title font_style">
+                            판매 금액
+                        </li>
+                        <li class="price_id_input">
+                            <input type="text" placeholder="INPUT SALES PRICE">
+                        </li>
+                    </ul>
+                </div>
+                <div class="submit_button">
+                    <input type="button" value="상품 판매 등록">
+                    <input type="button" value="초기화">
+                </div>
+            </ul>
+        </div>
+
+        
+        <div class = 'sell_list'>
+            <table class="sell_table">
+                <thead class="head_table">
+                    <tr>
+                        <td class="h_c_id">고객 계정</td>
+                        <td class="h_c_name">고객 이름</td>
+                        <td class="h_c_mail">고객 메일</td>
+                        <td class="h_c_phone">고객 연락처</td>
+                        <td class="h_c_reg_date">고객 가입일</td>
+                        <td class="h_p_no">상품 번호</td>
+                        <td class="h_p_name">상품 이름</td>
+                        <td class="h_p_price">상품 가격</td>
+                        <td class="h_p_quantity">상품 수량</td>
+                        <td class="h_p_reg_dates">상품 등록일</td>
+                        <td class="h_m_no">제조사 번호</td>
+                        <td class="h_m_name">제조사 이름</td>
+                        <td class="h_m_address">제조사 주소</td>
+                        <td class="h_m_phone">제조사 연락처</td>
+                        <td class="h_m_manager">제조사 관리자</td>
+                        <td class="h_m_reg_date">제조사 등록일</td>
+                        <td class="h_s_no">판매 번호</td>
+                        <td class="h_s_price">판매 가격</td>
+                        <td class="h_s_reg_date">판매 날짜</td>
+                    </tr>
+                </thead>
+    
+                
+            </table>
+        </div>
+        
+
+    </div>
+
+</body>
+</html>
+
+<template class="tbody_table">
+    <tbody>
+        <td class="b_c_id"></td>
+        <td class="b_c_name"></td>
+        <td class="b_c_mail"></td>
+        <td class="b_c_phone"></td>
+        <td class="b_c_reg_date"></td>
+        <td class="b_p_no"></td>
+        <td class="b_p_name"></td>
+        <td class="b_p_price"></td>
+        <td class="b_p_quantity"></td>
+        <td class="b_p_reg_dates"></td>
+        <td class="b_m_no"></td>
+        <td class="b_m_name"></td>
+        <td class="b_m_address"></td>
+        <td class="b_m_phone"></td>
+        <td class="b_m_manager"></td>
+        <td class="b_m_reg_date"></td>
+        <td class="b_s_no"></td>
+        <td class="b_s_price"></td>
+        <td class="b_s_reg_date"></td>
+    </tbody>
+</template>
