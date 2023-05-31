@@ -8,7 +8,7 @@ const init = () => {
     console.log('init() CALLED!!!');
 
     show_template();
-    registrationEvents();
+    //registrationEvents();
 
     
 }
