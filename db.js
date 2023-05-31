@@ -1,16 +1,6 @@
 // TBL_CUSTOMER_DB START
 let customer_db = new Map();
 
-class Customer {
-    constructor(c_id, c_name, c_mail, c_phone, c_rega_date) {
-        this.c_id = c_id;
-        this.c_name = c_name;
-        this.c_mail = c_mail;
-        this.c_phone = c_phone;
-        this.c_rega_date = c_rega_date;
-    }
-};
-
 // 더미데이터 입력
 let dummyC1 = new Customer('gildong', '홍길동', 'gildong@gmail.com', '010-1234-5678', Date());
 customer_db.set('gildong', dummyC1);
@@ -32,20 +22,26 @@ console.log(customer_db);
 
 // TBL_CUSTOMER_DB END
 
+// TBL_PRODUCT_DB START
+let product_db = new Map();
+let product_dummy1 = new Product('1', '1', 'A상품', '10000', '50', Date(), Date());
+product_db.set('1', product_dummy1); 
+let product_dummy2 = new Product('2', '2', 'B상품', '500', '100', Date(), Date());
+product_db.set('2', product_dummy2); 
+let product_dummy3 = new Product('3', '3', 'C상품', '15000', '20', Date(), Date());
+product_db.set('3', product_dummy3); 
+let product_dummy4 = new Product('4', '4', 'D상품', '20000', '10', Date(), Date());
+product_db.set('4', product_dummy4); 
+let product_dummy5 = new Product('5', '5', 'E상품', '30000', '30', Date(), Date());
+product_db.set('5', product_dummy5); 
+
+console.log(product_db);
+// TBL_PRODUCT_DB END
+
+
 // TBL_MANUFACTURE_DB START
 let manufacture_db = new Map();
 
-class Manufacture {
-    constructor(m_no, m_name, m_address, m_phone, m_manager, m_reg_date, m_mod_date) {
-        this.m_no = m_no;
-        this.m_name = m_name;
-        this.m_address = m_address,
-        this.m_phone = m_phone;
-        this.m_manager = m_manager;
-        this.m_reg_date = m_reg_date;
-        this.m_mod_date = m_mod_date;
-    }
-};
 
 // 더미데이터 입력
 let dummyM1 = new Manufacture('1', 'A제조사', 'AAA시 aaa구 123-456', '010-1478-5236', 'A대리', Date(), Date());
